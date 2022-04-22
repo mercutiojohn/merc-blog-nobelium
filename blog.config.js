@@ -2,7 +2,7 @@ const BLOG = {
   title: 'MercBlog',
   author: 'Mercutio John',
   email: 'mercutio_john@foxmail.com',
-  link: 'https://mercutio.vercel.app',
+  link: 'https://mercblog.vercel.app',
   description: 'Mercutio的博客',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
