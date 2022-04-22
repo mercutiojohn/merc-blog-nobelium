@@ -2,7 +2,7 @@ const BLOG = {
   title: 'MercBlog',
   author: 'Mercutio John',
   email: 'mercutio_john@foxmail.com',
-  link: 'https://mercutio.club',
+  link: 'https://mercutio.vercel.app',
   description: '分享互联网冲浪日常',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -17,7 +17,7 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://github.com/mercutiojohn',
   seo: {
     keywords: ['Blog', 'Website', 'Notion','博客','Mercutio','Python','Java','Vue'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
