@@ -71,8 +71,8 @@ const Header = ({ navBarTitle, fullWidth }) => {
         <div className="flex items-center">
           <Link href="/">
             <a aria-label={BLOG.title}>
-              <div className="h-6">
-                <Icon className="icon-drop-shadow"/>
+              <div className="h-6 icon-drop-shadow">
+                <Icon />
               </div>
             </a>
           </Link>
