@@ -19,9 +19,7 @@ module.exports = {
     }
   },
   rules: {
-    'react/prop-types': 'off',
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
+    'react/prop-types': 'off'
   },
   globals: {
     React: true
