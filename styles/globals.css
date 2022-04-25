@@ -145,7 +145,7 @@ nav {
   fill:none;
 }
 .cls-2{
-  clip - path:url(#clip-path);
+  clip-path:url(#clip-path);
 }
 .cls-3,.cls-5{
   fill:#fff;
