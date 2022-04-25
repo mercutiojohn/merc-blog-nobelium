@@ -30,7 +30,7 @@ const Icon = () => {
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.08 170.08" width="24" height="24">
       <g>
         <g>
-          <g clipPath="url(#clipPath)">
+          <g clipPath="url(#clip_path)">
             <rect fill="#fff" width="170.08" height="170.08" />
             <path fillRule="evenodd" fill="#f6e070"
               d="M167.06,86.28a82.67,82.67,0,0,0-20.13-21.94C131,52.25,110.65,45.6,89.66,45.6a103.24,103.24,0,0,0-20.22,2C44.76,52.53,23.26,65.82,8.72,85.26q-2.73,3.64-5,7.46L0,99.54v70.79H170.08V91.61Z"
@@ -51,7 +51,7 @@ const Icon = () => {
         </g>
       </g>
       <defs>
-        <clipPath id="clipPath" transform="translate(0 -0.25)">
+        <clipPath id="clip_path" transform="translate(0 -0.25)">
           <rect fill="none" x="0.69" width="170.08" height="170.08" rx="39.4" />
         </clipPath>
       </defs>
