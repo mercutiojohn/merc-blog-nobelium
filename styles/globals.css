@@ -139,23 +139,3 @@ nav {
     @apply bg-day bg-opacity-90 dark:bg-night dark:bg-opacity-90;
   }
 }
-
-
-.cls-1{
-  fill:none;
-}
-.cls-2{
-  clip-path:url(#clip-path);
-}
-.cls-3,.cls-5{
-  fill:#fff;
-}
-.cls-4{
-  fill:#f6e070;
-}
-.cls-4,.cls-5,.cls-6{
-  fill-rule:evenodd;
-}
-.cls-6{
-  fill:#221714;
-}
