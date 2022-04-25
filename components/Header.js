@@ -77,7 +77,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           </Link>
           <Link href="/">
             <a aria-label={BLOG.title}>
-              <p className="ml-2 font-medium text-day dark:text-night header-blog-name">
+              <p className="ml-2 font-medium header-blog-name">
                 {BLOG.title}
               </p>
             </a>
