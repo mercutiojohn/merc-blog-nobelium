@@ -98,7 +98,9 @@ const Layout = ({
           </button>
         </a>
       </div>
-      <Comments frontMatter={frontMatter} />
+      <div className="bg-gitalkBgDay dark:bg-gitalkBgNight gitalk-card">
+        <Comments frontMatter={frontMatter} />
+      </div>
     </Container>
   )
 }

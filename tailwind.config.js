@@ -22,7 +22,9 @@ module.exports = {
           DEFAULT: BLOG.darkBackground || '#111827'
         },
         mercGray: '#eff1f1',
-        mercBlackCard: '#414141'
+        mercBlackCard: '#414141',
+        gitalkBgDay: '#ffffff',
+        gitalkBgNight: '#bfbfbf',
       },
       fontFamily: {
         sans: ['"IBM Plex Sans"', ...fontFamily.sans, ...fontSansCJK],

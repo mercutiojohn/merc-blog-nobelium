@@ -149,6 +149,10 @@ nav {
   border-radius: 10px;  
   @apply bg-white dark:bg-mercBlackCard;
 }
+.gitalk-card{
+  border-radius: 10px;
+  padding: 0 20px 30px;
+}
 @media (min-width: 768px) {
   .sticky-nav-full {
     @apply max-w-full border-b border-opacity-50 border-gray-300 dark:border-gray-600 dark:border-opacity-50;
