@@ -117,6 +117,9 @@ nav {
   -khtml-user-select: none;
   user-select: none;
 }
+.icon-drop-shadow{
+  filter: drop-shadow(0px 2px 2px #00000023);
+}
 
 @media (min-width: 768px) {
   .sticky-nav-full {

@@ -72,7 +72,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link href="/">
             <a aria-label={BLOG.title}>
               <div className="h-6">
-                <Icon />
+                <Icon className="icon-drop-shadow"/>
               </div>
             </a>
           </Link>
