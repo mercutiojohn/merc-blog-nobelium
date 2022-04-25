@@ -72,7 +72,7 @@ body::-webkit-scrollbar-thumb {
   position: sticky;
   z-index: 10;
   top: -1px;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(30px);
   transition: all 0.5s cubic-bezier(0.4, 0, 0, 1);
   border-bottom-color: transparent;
 }
@@ -82,7 +82,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sticky-nav-full {
-  @apply border-b border-opacity-50 border-gray-200 dark:border-gray-600 dark:border-opacity-50;
+  @apply border-b border-opacity-50 border-gray-300 dark:border-gray-600 dark:border-opacity-50 bg-mercGray dark:bg-black bg-opacity-90;
 }
 
 .header-name {
@@ -123,10 +123,34 @@ nav {
 .icon-drop-shadow{
   filter: drop-shadow(0px 2px 2px #00000023);
 }
-
+.article-card{
+  border-radius: 10px;
+  background-color: #fff;
+  transition: box-shadow .2s ease, transform .2s ease;
+}
+.article-card:hover{
+  transform: translateY(-2px);
+  z-index: 2;
+  box-shadow:   
+    0px 3px 2.2px rgba(0, 0, 0, 0.02),
+    0px 7.1px 5.3px rgba(0, 0, 0, 0.028),
+    0px 13.4px 10px rgba(0, 0, 0, 0.035),
+    0px 23.9px 17.9px rgba(0, 0, 0, 0.042),
+    0px 44.7px 33.4px rgba(0, 0, 0, 0.05),
+    0px 107px 80px rgba(0, 0, 0, 0.07);
+}
+.article-card:active{
+  transform: translateY(0px);
+  box-shadow:   
+    0px 3px 5px 1px rgba(0, 0, 0, 0.1);
+}
+.content-card{
+  border-radius: 10px;
+  background-color: #fff;
+}
 @media (min-width: 768px) {
   .sticky-nav-full {
-    @apply max-w-full border-b border-opacity-50 border-gray-200 dark:border-gray-600 dark:border-opacity-50;
+    @apply max-w-full border-b border-opacity-50 border-gray-300 dark:border-gray-600 dark:border-opacity-50;
   }
   .header-name {
     display: block;
