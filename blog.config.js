@@ -18,6 +18,7 @@ const BLOG = {
         autoCollapsedNavBar: false, // The automatically collapsed navigation bar
         ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
         socialLink: 'https://mercutio.club',
+        mainPage: 'https://mercutio.club',
         seo: {
             keywords: ['Blog', 'Website', 'Notion', '博客', 'Mercutio', 'Python', 'Java', 'Vue'],
             googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
