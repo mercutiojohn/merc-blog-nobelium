@@ -27,7 +27,7 @@ const Icon = () => {
     //     </radialGradient>
     //   </defs>
     // </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.08 170.08">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.08 170.08" width="24" height="24">
       <g>
         <g>
           <g clipPath="url(#clipPath)">
