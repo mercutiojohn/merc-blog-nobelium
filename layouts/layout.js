@@ -30,7 +30,7 @@ const Layout = ({
       type="article"
       fullWidth={fullWidth}
     >
-      <article>
+      <article className="content-card p-5 pt-10 pb-7">
         <h1 className="font-bold text-3xl text-black dark:text-white">
           {frontMatter.title}
         </h1>
