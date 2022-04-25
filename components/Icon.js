@@ -1,9 +1,6 @@
 const Icon = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 170.08 170.08"><defs>
-      <style>
-        .cls-1{fill:none;}.cls-2{clip - path:url(#clip-path);}.cls-3,.cls-5{fill:#fff;}.cls-4{fill:#f6e070;}.cls-4,.cls-5,.cls-6{fill - rule:evenodd;}.cls-6{fill:#221714;}
-      </style>
       <clipPath id="clip-path" transform="translate(0 -0.25)">
         <rect class="cls-1" x="0.69" width="170.08" height="170.08" rx="39.4" />
       </clipPath>
