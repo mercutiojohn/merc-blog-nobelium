@@ -90,6 +90,9 @@ body::-webkit-scrollbar-thumb {
   opacity: 0;
   overflow: hidden;
 }
+.header-blog-name{
+  @apply dark:text-gray-100 text-gray-900;
+}
 
 .sticky-nav-full .nav {
   @apply text-gray-600 dark:text-gray-300;
