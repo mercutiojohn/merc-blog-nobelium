@@ -1,9 +1,9 @@
 const BLOG = {
-    title: 'MercBlog',
+    title: 'MercBlog | 设计，前端，杂谈',
     author: 'Mercutio John',
     email: 'mercutio_john@foxmail.com',
-    link: 'https://mercblog.vercel.app',
-    description: 'Mercutio的博客',
+    link: 'https://blog.mercutio.club',
+    description: 'MercBlog - 莫阿白的博客 | 设计，前端，杂谈',
     lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
     appearance: 'auto', // ['light', 'dark', 'auto'],
     font: 'sans-serif', // ['sans-serif', 'serif']
